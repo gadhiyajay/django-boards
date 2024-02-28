@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: humanizeTime
+Version: 1.0.0
+Summary: A module changing seconds to humanized time.
+Home-page: https://github.com/Tim232/humanizeTime
+Author: Tim232
+Author-email: endbot4023@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# humanizeTime
+
+Change seconds to humanized time
+
+How to Install :
+
+```shell
+$ pip install humanizeTime
+```
+
+How to Use :
+
+```python
+from humanizeTime import human_time
+time = human_time(123231)
+
+print(time)
+```
+
+```shell
+1 day, 10 hours, 13 minutes, and 51 seconds
+```
+
+
